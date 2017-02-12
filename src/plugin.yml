@@ -1,0 +1,15 @@
+name: DreamReloader
+main: com.mrsweeter.dreamreloader.DreamReloader
+version: 1.0
+author: MrSweeter / SweetDream
+description: Reload all DreamPlugin or DreamPlugin-Configuration
+
+commands:
+    dreamReload:
+        description: Reload all DreamPlugin
+        usage: /dreamReloader [config]
+
+permissions: 
+    dreamReloader.reloadAll:
+        description: Allow you to reload all DreamPlugin
+        default: op
